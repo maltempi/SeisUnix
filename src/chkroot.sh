@@ -15,14 +15,14 @@ then
 fi
 
 echo "Installing the CWP codes under the ROOT = ${CWPROOT}"
-echo "Continue install? [y/n] "  | tr -d "\012"
-	read RESP
-		case $RESP in
-			y*|Y*) # continue
-			;;
-			*) # abort
+# echo "Continue install? [y/n] "  | tr -d "\012"
+# 	read RESP
+# 		case $RESP in
+# 			y*|Y*) # continue
+# 			;;
+# 			*) # abort
 	
-				echo "Aborting make " ; exit 1
-			;;
-		esac
-exit 0
+# 				echo "Aborting make " ; exit 1
+# 			;;
+# 		esac
+# exit 0
